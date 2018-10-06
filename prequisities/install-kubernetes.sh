@@ -9,4 +9,4 @@ echo "deb http://apt.kubernetes.io/ kubernetes-xenial main"  | sudo tee -a /et
 apt-get update && apt-get install -y --no-install-recommends \
     kubelet \
     kubeadm \
-    kubernetes-cni
+    kubernetes-cni=0.6.0
