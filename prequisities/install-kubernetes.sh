@@ -9,4 +9,4 @@ deb http://apt.kubernetes.io/ kubernetes-xenial main
 apt-get update && apt-get install -y --no-install-recommends \
     kubelet \
     kubeadm \
-    kubernetes-cni=0.6.0-00
+    kubernetes-cni
